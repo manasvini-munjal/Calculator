@@ -1,0 +1,26 @@
+.calculator {
+    display: flex; 
+    flex-direction: column;
+    max-width: 180px;
+}
+
+.calculator__output {
+    display: flex;
+    justify-content: end;
+}
+
+.calculator__keys {
+    display: flex;
+    margin: 0.2em;
+}
+
+.calculator__key {
+    border-radius: 15px;
+    flex: auto;
+    width: 40px;
+    margin: 0 5px;
+}
+
+.calculator__key--width {
+    width: 95px;
+}
